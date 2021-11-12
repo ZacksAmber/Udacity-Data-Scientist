@@ -160,7 +160,7 @@ def return_figures():
 
     df_five.columns = ['country','year','ruralpopulation']
     df_five.sort_values('ruralpopulation', ascending=False, inplace=True) 
-
+    
     graph_five.append(
       go.Bar(
       x = df_five.country.tolist(),

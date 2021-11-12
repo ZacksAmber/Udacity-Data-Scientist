@@ -4,12 +4,15 @@
   
   <head>
     <title>Udacity Task List</title>
+        <!-- Ignore the following link to the css stylesheet. You will learn more about this in the next exercise. -->
+     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
     <h1>Today's TODO list</h1>
     <img src='udacity_logo.png' alt='Udacity Logo'>
     <!-- TODO: add an id to the Udacity link tag -->
-    <a id="main-link" href="https://www.udacity.com">Udacity</a>    
+    <a id="main-link" href="https://www.udacity.com">Udacity</a>  
+     <!-- NOTE - Adding id and class attributes to HTML does not change the appearance of the page. The changes made in this exercise affect how the page is displayed because this page has been linked to a style sheet. You'll be learning more about that shortly. -->
     <!-- TODO: Wrap the following paragraphs and list with a 
        div tag. Add an id to the div tag called main-content -->
     <!-- TODO: add a class to the the next two paragraphs
@@ -17,7 +20,8 @@ after this comment. Call the class bold-paragraph -->
     <div id="main-content">
       <p class="bold-paragraph">Hi, my name is Andrew.</p>
       <p class="bold-paragraph">I am a Udacity student from Los Angeles, California</p>
-      <p>I'm currently studying for the data scientist nanodegree program</p>
+        <!-- TODO: add a span around the terms data scientist after this comment. Add a class attribute called green-text -->
+      <p>I'm currently studying for the <span class="green-text">data scientist</span> nanodegree program</p>
       <p>These are my tasks:</p>
       <ul>
           <li>Watch ten videos</li>
