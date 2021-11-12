@@ -11,7 +11,7 @@ importlib-metadata==4.8.2
 ipython-genutils==0.2.0
 itsdangerous==2.0.1
 Jinja2==3.0.3
-jsonschema==4.2.1
+jsonschema==4.0.0
 jupyter-core==4.9.1
 MarkupSafe==2.0.1
 nbformat==5.1.3
