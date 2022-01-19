@@ -17,24 +17,32 @@ This corporate message data is from one of the free datasets provided on the [Fi
 
 ### [Clean Tokenize](./clean_tokenize.ipynb)
 
----
-
-### [Custom Transformer](./custom_transformer.ipynb)
+Clean text through `NLTK` and replace url with `urlplaceholder`.
 
 ---
 
-### [Feature Union Practice](./feature_union_practice.ipynb)
+### [ML Workflow](./ml_workflow.ipynb)
 
----
-
-### [Grid Search](./grid_search.ipynb)
-
----
-
-### [Ml Workflow](./ml_workflow.ipynb)
+ML Workflow introduction.
 
 ---
 
 ### [Pipeline](./pipeline.ipynb)
 
+Use Pipeline to create ML workflow in sequence.
+
 ---
+
+### [Feature Union Practice](./feature_union_practice.ipynb)
+
+Use FeatureUnion to create ML workflow in parallel.
+
+---
+
+### [Custom Transformer](./custom_transformer.ipynb)
+
+Customize your own transformer.
+
+---
+
+### [Grid Search](./grid_search.ipynb)
