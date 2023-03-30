@@ -12,10 +12,14 @@ seaborn = "*"
 plotly = "*"
 matplotlib = "*"
 scikit-learn = "*"
-ipykernel = "*"
-jupyterlab = "*"
+rpy2 = "*"
 
 [dev-packages]
+jupyterlab = "*"
+jupyter = "*"
+jupyterlab-code-formatter = "*"
+black = "*"
+isort = "*"
 
 [requires]
 python_version = "3.10"
