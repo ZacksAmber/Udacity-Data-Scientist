@@ -2,14 +2,14 @@ import numpy as np
 import pandas as pd
 
 def q1_check(input_dict):
-    a = 53968
+    a = 8022
     b = 10
     c = 7
-    d = 31245
+    d = 35479
     e = 15
     f = 0
     g = 4
-    h = 712337
+    h = 100001
     i = 28
 
     dict_sol1 = {
@@ -220,7 +220,7 @@ def sim_6_sol(sol_dict):
 def test_recs(sol_dict):
     sol_dict1 = {
         'The type of recommendation system implemented here was a ...': 'user based collaborative filtering',
-        'The two methods used to estimate similarity were: ': "euclidean distance and pearson's correlation coefficient",
+        'The two methods used to estimate user similarity were: ': "euclidean distance and pearson's correlation coefficient",
         'There was an issue with using the correlation coefficient.  What was it?': 'the spread in some ratings was zero'
     }
     if sol_dict1 == sol_dict:
