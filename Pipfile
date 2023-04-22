@@ -13,6 +13,11 @@ matplotlib = "*"
 scikit-learn = "*"
 rpy2 = "*"
 pandas = {extras = ["performance"], version = "*"}
+tpot = "*"
+torch = "*"
+imblearn = "*"
+xgboost = "*"
+optuna = "*"
 
 [dev-packages]
 jupyterlab = "*"
